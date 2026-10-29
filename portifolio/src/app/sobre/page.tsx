@@ -15,7 +15,7 @@ export default function Sobre() {
       
       <Link 
         href="/" 
-        className="text-blue-600 hover:underline"
+        className="text-pink-600 hover:underline"
       >
         ← Voltar para a Home
       </Link>
