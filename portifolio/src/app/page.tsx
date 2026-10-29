@@ -29,7 +29,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">
               Desenvolvedora <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500">
-                Front-end
+                Back-end
               </span>
             </h1>
             <p className="text-gray-400 text-lg md:text-xl max-w-md">
@@ -37,15 +37,25 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Botão de Contato com Gradiente */}
-          <div>
+             <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            
+            {/* Botão Primário (Projetos) */}
             <Link 
-              href="/contato" 
-              className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full font-bold text-white hover:opacity-90 transition-opacity shadow-[0_0_20px_rgba(236,72,153,0.3)]"
+              href="/projetos" 
+              className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full font-bold text-white hover:opacity-90 hover:scale-105 transition-all shadow-[0_0_20px_rgba(236,72,153,0.3)]"
             >
-              CONECTE-SE COMIGO
+              Ver Meus Projetos
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
             </Link>
+
+            {/* Botão Secundário (Sobre) */}
+            <Link 
+              href="/sobre" 
+              className="inline-flex items-center justify-center px-8 py-4 bg-white/5 border border-white/10 rounded-full font-bold text-white hover:bg-white/10 hover:border-pink-500/50 transition-all"
+            >
+              Sobre Mim
+            </Link>
+
           </div>
         </div>
 
