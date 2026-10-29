@@ -14,13 +14,14 @@ export default function Home() {
       <nav className="flex gap-6">
         <Link 
           href="/sobre" 
-          className="px-4 py-2 bg-pink-400 text-white rounded hover:bg-pink-700 transition"
+          className="px-8 py-3 bg-pink-600 text-white font-semibold rounded-full hover:bg-pink-700 hover:scale-105 transition-all duration-200 shadow-lg shadow-pink-200 text-center"
         >
           Sobre Mim
         </Link>
+        
         <Link 
           href="/projetos" 
-          className="px-4 py-2 bg-pink-400 text-white rounded hover:bg-pink-700 transition"
+          className="px-8 py-3 bg-pink-600 text-white font-semibold rounded-full hover:bg-pink-700 hover:scale-105 transition-all duration-200 shadow-lg shadow-pink-200 text-center"
         >
           Meus Projetos
         </Link>
