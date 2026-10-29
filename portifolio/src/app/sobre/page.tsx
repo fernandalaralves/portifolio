@@ -10,7 +10,7 @@ export default function Sobre() {
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <h1 className="text-3xl font-bold mb-4">Sobre Mim</h1>
       <p className="mb-8 max-w-lg text-center">
-        Olá! Sou a Fernanda, estudante de ads.
+        Sou Técnica em Informática e atualmente curso Análise e Desenvolvimento de Sistemas(Tecnólogo). Tenho interesse nas áreas de desenvolvimento de software em especial, back-end. Estou em constante aprimoramento técnico, estudando atualmente as linguagens Java e Python.
       </p>
       
       <Link 
